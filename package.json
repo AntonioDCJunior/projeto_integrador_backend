@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start":"npm run build",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
